@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T07:54:16.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JnP7RN_HEBNH3Ys-46gK" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T08:02:00.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pBiC53Qj9PmyHlfLWbTX" version="20.0.1" type="github">
   <diagram id="jnVAL9uRxnoUx5-Gxdo9" name="Page-1">
     <mxGraphModel dx="3679" dy="2707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,12 +28,9 @@
             <mxPoint x="-165" y="751" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-370" y="342" />
-              <mxPoint x="-370" y="-234" />
+              <mxPoint x="-370" y="-134" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="_tD8g0C9u-y-9bEUWxSy-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3OPyK3KmONyr5ZvhFQ65-1" target="_tD8g0C9u-y-9bEUWxSy-51">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3OPyK3KmONyr5ZvhFQ65-1" target="_tD8g0C9u-y-9bEUWxSy-41">
           <mxGeometry relative="1" as="geometry" />
@@ -45,7 +42,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-370" y="342" />
-              <mxPoint x="-370" y="-94" />
+              <mxPoint x="-370" y="6" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -53,7 +50,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-370" y="342" />
-              <mxPoint x="-370" y="41" />
+              <mxPoint x="-370" y="141" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -144,7 +141,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="408.5" y="395.9366666666668" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="210" y="-234" />
+              <mxPoint x="210" y="-134" />
               <mxPoint x="210" y="139" />
             </Array>
           </mxGeometry>
@@ -204,7 +201,7 @@
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-15" target="_tD8g0C9u-y-9bEUWxSy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_tD8g0C9u-y-9bEUWxSy-29" value="获取 正式用户 列表&lt;br&gt;返回响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="_tD8g0C9u-y-9bEUWxSy-19">
+        <mxCell id="_tD8g0C9u-y-9bEUWxSy-29" value="获取 正式/测试用户 列表&lt;br&gt;返回响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="_tD8g0C9u-y-9bEUWxSy-19">
           <mxGeometry x="-0.0374" y="2" relative="1" as="geometry">
             <mxPoint x="-6" y="-2" as="offset" />
           </mxGeometry>
@@ -213,19 +210,19 @@
           <mxGeometry x="76" y="488" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-16" value="AWS Lambda&lt;br&gt;(EmailDB Function)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-270" width="69" height="72" as="geometry" />
+          <mxGeometry x="-170" y="-170" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-27" value="返回响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-39.99666666666651" y="652" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_tD8g0C9u-y-9bEUWxSy-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="76" y="152.99999999999977" as="sourcePoint" />
+            <mxPoint x="76" y="252.99999999999977" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-41" target="_tD8g0C9u-y-9bEUWxSy-46">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="76" y="153" as="targetPoint" />
+            <mxPoint x="76" y="253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-40" value="获取 手动取消订阅 用户列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_tD8g0C9u-y-9bEUWxSy-39">
@@ -234,13 +231,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-41" value="AWS Lambda&lt;br&gt;(EmailDB Function)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="117" width="69" height="72" as="geometry" />
+          <mxGeometry x="-180" y="217" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-43" target="_tD8g0C9u-y-9bEUWxSy-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-43" value="AWS Lambda&lt;br&gt;(EmailDB Function)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="252" width="69" height="72" as="geometry" />
+          <mxGeometry x="-180" y="352" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-46" target="_tD8g0C9u-y-9bEUWxSy-43">
           <mxGeometry relative="1" as="geometry" />
@@ -251,25 +248,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-46" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="76" y="258" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_tD8g0C9u-y-9bEUWxSy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-15" target="_tD8g0C9u-y-9bEUWxSy-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="76" y="408" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tD8g0C9u-y-9bEUWxSy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-51" target="_tD8g0C9u-y-9bEUWxSy-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="76" y="408" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tD8g0C9u-y-9bEUWxSy-50" value="获取 测试用户 列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_tD8g0C9u-y-9bEUWxSy-49">
-          <mxGeometry x="0.2866" y="1" relative="1" as="geometry">
-            <mxPoint x="-100" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tD8g0C9u-y-9bEUWxSy-51" value="AWS Lambda&lt;br&gt;(EmailDB Function)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="372" width="69" height="72" as="geometry" />
+          <mxGeometry x="76" y="358" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-62" target="_tD8g0C9u-y-9bEUWxSy-46">
           <mxGeometry relative="1" as="geometry" />
@@ -280,11 +259,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-62" value="AWS Lambda&lt;br&gt;(EmailDB Function)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-130" width="69" height="72" as="geometry" />
+          <mxGeometry x="-170" y="-30" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tD8g0C9u-y-9bEUWxSy-64" target="_tD8g0C9u-y-9bEUWxSy-46">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="86" y="41" as="targetPoint" />
+            <mxPoint x="86" y="141" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-71" value="写入 定时发送 任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_tD8g0C9u-y-9bEUWxSy-63">
@@ -293,7 +272,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_tD8g0C9u-y-9bEUWxSy-64" value="AWS Lambda&lt;br&gt;(EmailDB Function)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="5" width="69" height="72" as="geometry" />
+          <mxGeometry x="-170" y="105" width="69" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
